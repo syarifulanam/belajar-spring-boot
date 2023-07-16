@@ -1,15 +1,13 @@
 package com.syariful.belajarspringboot.service;
 
 import com.syariful.belajarspringboot.model.Employee;
+import com.syariful.belajarspringboot.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
-import com.syariful.belajarspringboot.repository.EmployeeRepository;
 
-import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
